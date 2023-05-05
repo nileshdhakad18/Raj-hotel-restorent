@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+section{
+    
+    
+    
+}
+
+header{
+  
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Philosopher', sans-serif;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    opacity: 0.8;
+    background-color: black;
+    z-index: +1;
+}
+
+.navlist{
+    display: flex;
+    list-style: none;
+}
+
+.navlist li a{
+    text-decoration: none;
+    margin: 2px 5px;
+    color: white;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+    padding: 4px 7px;
+
+}
+.navlist li a:hover{
+    color: gold;
+    text-decoration: underline;
+    
+}
+.list{
+    margin: 15px 40px;
+
+    
+}
+.order{
+     margin: 0px 20px;
+     padding: 5px 15px;
+}
+
+.order button{
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: rgb(221, 208, 132);
+    cursor: pointer;
+    transition: all 0.6s;
+    border: none;
+
+}
+.order button:hover{
+    background-color: gold;
+   transform: scale(1.1);
+}
+
+
+.main-page::before{
+    content: "";
+    position: fixed;
+    background: url('index.webp') no-repeat center center/cover;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+    margin-top: -140px;
+    opacity: 0.9;
+}
+
+.main-cont{
+    margin: 120px 0px;
+     padding: 40px 0px;
+     align-items: center;
+    
+}
+.main{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main div{
+    padding: auto;
+    
+}
+.main .wel{
+    font-size: 25px;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+
+}
+.main .raj{
+    font-size: 60px;
+    color: gold;
+    font-family: 'Philosopher', sans-serif;
+}
+.main .rest{
+    font-size: 40px;
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+}
+.main button{
+    margin: 20px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color:rgb(220, 191, 26);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.main button:hover{
+       
+     transform: scale(1.1);
+        color: black;
+       
+}
+
+.about{
+    background-color: rgb(255, 254, 254);
+    margin: 0px 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 50px;
+    
+}
+.about-head{
+    text-align: center;
+    margin-top: 10px ;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.about-more{
+    display: flex;
+    justify-content: space-around;
+}
+.about-more .pic img{
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+.about-more .pic{
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.about-more .pasage{
+    padding: 40px;
+ 
+}
+.about-more .pasage p{
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.about-more .pasage button{
+    margin-top: 50px;
+     padding: 8px 15px;
+     margin-left:100px ;
+     cursor: pointer;
+     border-radius: 5px;
+     background-color: rgb(220, 191, 26);
+     border: none;
+     transition: all 0.5s ease-in-out;
+     color: white;
+}
+.about-more .pasage button:hover{
+   transform: scale(1.1);
+   color: black; 
+}
+.menu{
+   margin: 10px;
+   background-color: rgb(237, 207, 40);
+   border-radius: 10px;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+
+}
+.menu .menu-h{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-family: 'Philosopher', sans-serif;
+}
+.menu .a{
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    padding-right: 100px;
+}
+.menu .a :hover{
+    color: blue;
+}
+.img{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.img .img1{
+    background-color: white;
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    padding: 4px;
+    
+}
+.img1 h3{
+    text-align: center;
+    margin: 4px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.img .img2{
+    background-color: white;
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    padding: 4px;
+}
+.img2 h3{
+    text-align: center;
+    margin: 4px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.img .img1 img{
+    width: 250px;
+    height:250px;
+    border-radius: 5px;
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+.img .img2 img{
+    width: 250px;
+    height:250px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    
+}
+.img1:hover {
+    background-color: rgba(90, 88, 87, 0.316);
+}
+.img1 img:hover{
+    transform: scale(0.9);
+    
+    
+}
+.img2:hover {
+    background-color: rgba(90, 88, 87, 0.316);
+}
+.img2 img:hover{
+    transform: scale(0.9);
+}
+
+
+.room{
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 40px;
+}
+.room .room-h{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Philosopher', sans-serif;
+}
+.room .room-img{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.room-img .img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px;
+    transition: all 0.8s ease-in-out;
+    border-radius: 5px;
+}
+.room-img .img:hover{
+    background-color:rgba(255, 221, 0, 0.391);
+}
+
+.room .room-img img{
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+   transition: all 0.8s ease-in-out;
+   
+}
+.room .room-img img:hover{
+     transform: scale(0.9);
+}
+
+.room-img .img h3{
+    margin: 20px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.room-img .img button{
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 20px;
+}
+.room-img .img button:hover{
+    background-color: gold;
+    transform: scale(1.2);
+}
+
+.contect{
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+
+}
+.contect-h{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.contect-m{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.contect-m .contect-m1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.contect-m1 .m1-1{
+    width: 200px;
+   
+    margin-right: 20px;
+}
+.m1-1 h2{
+    font-size: 20px;
+    color: gold;
+    margin-bottom: 20px;
+}
+.m1-2{
+    margin-left:20px ;
+}
+.m1-1 p{
+    margin-top: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.m1-2 h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.m1-2 p{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.contect-m2 form{
+    display: flex;
+    flex-direction: column;
+    padding:0px 60px;
+    font-family: 'Philosopher', sans-serif;
+}
+.contect-m2 .f{
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.contect .b{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.5s ease-in-out ;
+}
+.contect .b:hover{
+    transform: scale(1.1);
+    background-color: gold;
+}
+
+
+@media screen and (max-width:900px){
+    .room .room-img{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:750px){
+    .img{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img .img1{
+        margin: 10px 0px;
+    }
+    .img .img2{
+        margin: 10px 0px;
+    }
+    .about-more{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .navlist{
+        font-size: 15px;
+
+    }
+    .list{
+        margin: 10px 20px;
+    }
+    .contect-m{
+        flex-direction: column;
+    }
+    .contect-m form{
+        margin-top: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+    .about-more .pic img{
+        width: 200px;
+        height: auto;
+    }
+    .main .rest{
+        font-size: 20px;
+    }
+    .list{
+        margin:5px 10px;
+    }
+}
